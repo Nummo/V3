@@ -1,2 +1,2 @@
 # V3
-http://www.theinvitersvp.co.uk/
+theinvitersvp.co.uk
