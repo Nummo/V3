@@ -1,0 +1,179 @@
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+
+}
+
+@media only screen and (min-width: 480px) {
+    /* For tablets: */
+    body{
+    	background-image: url(img/bck.png);
+    	background-color: white;
+    	color: white;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    body{
+    	 background-color: white;
+    	 background-image: url(img/mobile-bck.png);
+    	background-image: url(bck.jpg);
+  
+    }
+
+    h1, h2, h3, p, b.highlight {
+    	color: black;
+      /*text-shadow: 2px 2px white;*/
+    
+    }
+
+
+
+    .box{
+  	position: absolute;
+  	margin: auto;
+  	color: #FFD700;
+  	border-style: solid;
+  	border-color: #FFD700;
+  	background-color: #FFD700;
+  	left: 79%;
+  	border-width: 5px; 
+  	width: 20%;
+  	height: 98vh;
+    margin-right: 0px;
+    padding-right: 0px;
+	}
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(img/mobile-goldbck.png);
+  /*background-image: url(img/goldback3.png);*/
+	background-repeat:no-repeat;
+	background-position: 10% -20% 10% 0%;
+	background-color: white;
+	color: black;
+	margin-left: auto;
+  margin-right: auto;
+  padding-right: 5px;
+  text-align: right;
+  font-family: 'Perpetua';
+    	/*
+	font-family: 'Sacramento', cursive;
+	/*font-family: 'Ruthie', cursive;
+	font-family: 'Cedarville Cursive', cursive;
+	font-family: 'Montez', cursive;
+	font-family: 'The Girl Next Door', cursive;
+	font-family: 'Dancing Script', cursive;
+	font-family: 'Sacramento', cursive;*/
+
+}
+
+
+.box{
+	display: hidden;
+	}
+
+.comp-name-area{
+  padding-top: 10%;
+  line-height: 70%;
+}
+
+h1.comp-name {
+  font-family: 'Papyrus', fantasy;
+  font-size: 42px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+h2.comp-name2 {
+  font-size: 32px
+	margin-top: 0px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+h3.strapline {
+  font-size: 25px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+  line-height: 100%;
+}
+
+.mailing-prompt{
+  line-height: 20%;
+}
+
+p{
+  font-size: 22px;
+}
+
+p.survey-prompt{
+  line-height: 95%;
+  font-size: 16px;
+}
+
+b.highlight {
+  text-shadow: 2px 2px #FFD700;
+}
+
+.mc_embed_signup {
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+  margin-right: -5px;
+	margin-top: 0px;
+	/*font-family: 'Handlee';*/
+	text-align: right;
+	color: white;
+}
+
+.social_media {
+	visibility: visible;
+  border-style: solid;
+  border-color: #FFD700;
+  background-color: #FFD700;
+  padding-left: 5px;
+  margin-right: 2px;
+  right: 0;
+  position: fixed;
+}
+
+.social_media-logo{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle
+}
+
+
+
