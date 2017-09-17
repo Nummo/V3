@@ -21,7 +21,7 @@ body {
   margin-right: auto;
   padding-right: 5px;
   text-align: right;
-  font-family: ‘Josefin Sans’, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
     	/*
 	font-family: 'Sacramento', cursive;
 	/*font-family: 'Ruthie', cursive;
@@ -44,7 +44,7 @@ body {
 }
 
 h1.comp-name h3.strapline {
-  font-family: ‘Berkshire Swash, cursive;
+  font-family: "Berkshire Swash", cursive;
   font-size: 42px;
 	padding-right: 5px;
 	padding-top: 0px;
@@ -53,7 +53,7 @@ h1.comp-name h3.strapline {
 }
 
 h2.comp-name2 {
-  font-family: ‘Reem Kufi’, sans-serif;
+  font-family: "Reem Kufi", sans-serif;
   font-size: 32px
 	margin-top: 0px;
 	padding-right: 5px;
