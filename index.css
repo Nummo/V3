@@ -21,7 +21,7 @@ body {
   margin-right: auto;
   padding-right: 5px;
   text-align: right;
-  font-family: 'Perpetua';
+  font-family: ‘Josefin Sans’, sans-serif;
     	/*
 	font-family: 'Sacramento', cursive;
 	/*font-family: 'Ruthie', cursive;
@@ -43,8 +43,8 @@ body {
   line-height: 70%;
 }
 
-h1.comp-name {
-  font-family: 'Papyrus', fantasy;
+h1.comp-name h3.strapline {
+  font-family: ‘Berkshire Swash, cursive;
   font-size: 42px;
 	padding-right: 5px;
 	padding-top: 0px;
@@ -53,6 +53,7 @@ h1.comp-name {
 }
 
 h2.comp-name2 {
+  font-family: ‘Reem Kufi’, sans-serif;
   font-size: 32px
 	margin-top: 0px;
 	padding-right: 5px;
@@ -60,14 +61,6 @@ h2.comp-name2 {
 	padding-bottom: 0px;
 }
 
-h3.strapline {
-  font-size: 25px;
-	padding-right: 5px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	margin-top: 0px;
-  line-height: 100%;
-}
 
 .mailing-prompt{
   line-height: 20%;
