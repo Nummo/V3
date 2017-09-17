@@ -43,7 +43,7 @@ body {
   line-height: 70%;
 }
 
-h1.comp-name h3.strapline {
+.comp-name .strapline {
   font-family: "Berkshire Swash", cursive;
   font-size: 42px;
 	padding-right: 5px;
@@ -52,7 +52,7 @@ h1.comp-name h3.strapline {
 	margin-bottom: 0px;
 }
 
-h2.comp-name2 {
+.comp-name2 {
   font-family: "Reem Kufi", sans-serif;
   font-size: 32px
 	margin-top: 0px;
