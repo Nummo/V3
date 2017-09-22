@@ -4,75 +4,68 @@
 
 }
 
-
-
 body {
 	margin: 0;
 	padding: 0;
-	background-image: url(img/back.png);
-  /*background-image: url(img/goldback3.png);*/
-	background-size: 75%;
-  background-repeat: no-repeat;
-	/*background-position: bottom;*/
-  background-position: -20% 20% 0% 0%;
+	background-image: url(img/mobile-goldbck.png);
+	background-repeat:no-repeat;
+	background-position: 10% -20% 10% 0%;
 	background-color: white;
 	color: black;
 	margin-left: auto;
-  margin-right: auto;
-  padding-right: 5px;
+ 	margin-right: auto;
   text-align: right;
-  font-family: 'Josefin Sans';
-    	/*
-	font-family: 'Sacramento', cursive;
-	/*font-family: 'Ruthie', cursive;
-	font-family: 'Cedarville Cursive', cursive;
-	font-family: 'Montez', cursive;
-	font-family: 'The Girl Next Door', cursive;
-	font-family: 'Dancing Script', cursive;
-	font-family: 'Sacramento', cursive;*/
-
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
 .box{
 	display: hidden;
+
 	}
 
-.comp-name-area{
-  padding-top: 10%;
-  line-height: 70%;
-}
-
-.comp-name .strapline {
-  font-family: 'Berkshire Swash';
-  font-size: 42px;
+h1 {
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 28px;
 	padding-right: 5px;
-	padding-top: 0px;
+	padding-top: 5px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
+  line-height: 5px;
 }
 
-.comp-name2 {
-  font-family: 'Reem Kufi';
-  font-size: 32px
+
+h2 {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 12px
 	margin-top: 0px;
 	padding-right: 5px;
 	padding-top: 0px;
 	padding-bottom: 0px;
+  line-height: 2px;
 }
 
 
-.mailing-prompt{
-  line-height: 20%;
+h3 {
+  	font-size: 14px;
+	padding-right: 5px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
 }
 
 p{
-  font-size: 22px;
+  font-size: 12px;
+}
+
+.mailing-prompt{
+  line-height: 20%;
+  font-weight: bold;
 }
 
 p.survey-prompt{
-  line-height: 95%;
-  font-size: 16px;
+  line-height: 105%;
+  font-size: 14px;
 }
 
 b.highlight {
@@ -124,7 +117,6 @@ b.highlight {
 
 
 
-
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     body{
@@ -140,10 +132,7 @@ b.highlight {
     h1, h2, h3, p, b.highlight {
       color: black;
       /*text-shadow: 2px 2px white;*/
-    
     }
-
-
 
     .box{
     position: absolute;
@@ -155,7 +144,7 @@ b.highlight {
     left: 79%;
     border-width: 5px; 
     width: 20%;
-    height: 98vh;
+    height: 98%;
     margin-right: 0px;
     padding-right: 0px;
   }
@@ -173,5 +162,8 @@ b.highlight {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+
+
+
 
 
