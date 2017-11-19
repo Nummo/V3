@@ -1,169 +1,146 @@
 /* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-
-}
-
 body {
-	margin: 0;
-	padding: 0;
-	background-image: url(img/mobile-goldbck.png);
-	background-repeat:no-repeat;
-	background-position: 10% -20% 10% 0%;
-	background-color: white;
-	color: black;
-	margin-left: auto;
- 	margin-right: auto;
-  text-align: right;
-  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  background-color: #101059;
+    background: url("_img/paint.jpg");
+  color: black;
+  text-align: center; 
+  font-family: 'Questrial', sans-serif;
+}
+
+main {
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+nav {
+  background-color: #F2C832;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 4%;
+  padding-bottom: 1px;
+  font-size: 14px;
+  font-family: /*'Karla'*/ 'Arial', sans-serif; 
+  color: #FFFFFF; 
+  margin-bottom: 5%;
 }
 
 
-.box{
-	display: hidden;
 
-	}
 
-h1 {
-  font-family: 'Berkshire Swash', cursive;
-  font-size: 28px;
-	padding-right: 5px;
-	padding-top: 5px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-  line-height: 5px;
+#main_head{
+  font-family: 'Lato', sans-serif;
+  color: #F2C832;
+ padding-top: 15%;
 }
 
+
+#main_name {
+  font-size: 30px;
+  padding-top: 10px;
+  /*margin-bottom: 0px; */
+  line-height: 0%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcec58+7,fcc200+100 */
+/*color: rgb(252,236,88); /* Old browsers */
+/*color: -moz-linear-gradient(top, rgba(252,236,88,1) 7%, rgba(252,194,0,1) 100%); /* FF3.6-15 */
+/*color: -webkit-linear-gradient(top, rgba(252,236,88,1) 7%,rgba(252,194,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+/*color: linear-gradient(to bottom, rgba(252,236,88,1) 7%,rgba(252,194,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcec58', endColorstr='#fcc200',GradientType=0 ); /* IE6-9 */
+}
+
+#sub_name {
+  /*text-align: right;*/
+  margin-left:4cm; 
+    padding-top: 0px;
+  font-size:15px;
+  line-height: 70%;
+
+}
+
+#tagline{
+  font-size: 16px;
+  line-height: 70%;
+  padding-top: 0px;
+  font-family: 'The Girl Next Door', cursive;
+}
 
 h2 {
-  font-family: 'Reem Kufi', sans-serif;
-  font-size: 12px
-	margin-top: 0px;
-	padding-right: 5px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-  line-height: 2px;
-}
-
-
-h3 {
-  	font-size: 14px;
-	padding-right: 5px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	margin-top: 0px;
+  font-size: 20px;
+  /*font-family: 'Karla', sans-serif;*/
+    font-family: 'The Girl Next Door', cursive;
 }
 
 p{
   font-size: 12px;
 }
 
-.mailing-prompt{
-  line-height: 20%;
-  font-weight: bold;
-}
-
-p.survey-prompt{
-  line-height: 105%;
-  font-size: 14px;
-}
-
-b.highlight {
-  text-shadow: 2px 2px #FFD700;
-}
-
 .mc_embed_signup {
-	padding-top: 0px;
-	padding-bottom: 5px;
-	padding-right: 5px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  padding-right: 5px;
   margin-right: -5px;
-	margin-top: 0px;
-	/*font-family: 'Handlee';*/
-	text-align: right;
-	color: white;
+  margin-top: 0px;
+  text-align: center;
+  color: white;
 }
 
-.social_media {
-	visibility: visible;
-  border-style: solid;
-  border-color: #FFD700;
-  background-color: #FFD700;
-  padding-left: 5px;
-  margin-right: 2px;
-  right: 0;
+
+footer{
   position: fixed;
-}
-
-.social_media-logo{
-  display: block;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle
-}
-
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 8px;
+  }
 
 @media only screen and (min-width: 480px) {
     /* For tablets: */
-    body{
-      background-image: url(img/back.png);
-      background-color: white;
-      color: white;
-      background-size: 75%;
-      background-repeat: no-repeat;
-      background-position: 60% -20% 0% 0%;
+
+
+  #main_head{
+   padding-top: 10%;
+  }
+
+  #main_name {
+    font-size: 30px;
+       padding-top: 0%;
+  }
+
+  p{
+  font-size: 14px;
+  }
+
+    footer{
+    font-size: 12px;
     }
-
-}
-
-
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
-    body{
-       background-color: white;
-       background-image: url(img/back.png);
-       background-size: 100%;
-       background-repeat: no-repeat;
-       background-position: 60% -20% 0% 0%;
-      
-  
-    }
 
-    h1, h2, h3, p, b.highlight {
-      color: black;
-      /*text-shadow: 2px 2px white;*/
-    }
+#main-head {
+  font-size: 60px;
+}
 
-    .box{
-    position: absolute;
-    margin: auto;
-    color: #FFD700;
-    border-style: solid;
-    border-color: #FFD700;
-    background-color: #FFD700;
-    left: 79%;
-    border-width: 5px; 
-    width: 20%;
-    height: 98%;
-    margin-right: 0px;
-    padding-right: 0px;
-  }
-
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+#sub-head{
+  font-size: 18px;
 }
 
 
+h2 {
+  font-size: 30px;
+}
+
+
+
+footer{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+    
 
 
 
