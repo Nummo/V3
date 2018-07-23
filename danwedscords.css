@@ -83,7 +83,7 @@ section {
 }
 
 .attirePhoto{
-	background: url(_imgs/prints.jpg);
+	background: url(__imgs/prints.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -92,7 +92,7 @@ section {
 }
 
 .transportationPhoto{
-	background: url(_danwedscords/__imgs/Blick-auf-die-skyline-von-London-von-der-Themse-und-Tower-Bridge-iStock-453461545-2.jpg);
+	background: url(__imgs/Blick-auf-die-skyline-von-London-von-der-Themse-und-Tower-Bridge-iStock-453461545-2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -101,7 +101,7 @@ section {
 }/*https://www.myholidayguru.co.uk/hotels/weekend-london/*/
 
 .goodHotelPhoto{
-	background: url(_danwedscords/__imgs/GOODHOTEL-SECONDSELECTION-hr_steeffleur015.jpg);
+	background: url(__imgs/GOODHOTEL-SECONDSELECTION-hr_steeffleur015.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -120,7 +120,7 @@ section {
  /* Medium desktop: 4 tiles */
 
 .mainPhoto{
-	background: url(_danwedscords/__imgs/engagementShoot.jpeg);
+	background: url(__imgs/engagementShoot.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -129,7 +129,7 @@ section {
 	}
 
 .ceremonyPhoto{
-	background: url(_danwedscords/__imgs/Church.jpg);
+	background: url(__imgs/Church.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -138,7 +138,7 @@ section {
 	}
 
 .receptionPhoto{
-	background: url(_danwedscords/__imgs/reception.jpg);
+	background: url(__imgs/reception.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -151,7 +151,7 @@ section {
 @media only screen and (max-width : 1050px) and (min-width : 651px) {
   /* Small desktop / ipad view: 3 tiles */
   .mainPhoto{
-	background: url(_danwedscords/__imgs/engagementShoot.jpeg);
+	background: url(__imgs/engagementShoot.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -160,7 +160,7 @@ section {
 	}
 
 .ceremonyPhoto{
-	background: url(_danwedscords/__imgs/Church.jpg);
+	background: url(__imgs/Church.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -184,7 +184,7 @@ section {
 @media only screen and (max-width : 650px) and (min-width : 481px) {
   /* Tablet view: 2 tiles */
   .mainPhoto{
-	background: url(_danwedscords/__imgs/engagementShootMobi2.jpeg);
+	background: url(__imgs/engagementShootMobi2.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -193,7 +193,7 @@ section {
 	}
 
 	.ceremonyPhoto{
-	background: url(_danwedscords/__imgs/ChurchMobi.jpeg);
+	background: url(__imgs/ChurchMobi.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -202,7 +202,7 @@ section {
 	}
 
 .receptionPhoto{
-	background: url(_danwedscords/__imgs/receptionMobi.jpeg);
+	background: url(__imgs/receptionMobi.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -215,7 +215,7 @@ section {
 @media only screen and (max-width : 480px) {
   /* Smartphone view: 1 tile */
   .mainPhoto{
-	background: url(_danwedscords/__imgs/engagementShootMobiV2.jpg);
+	background: url(__imgs/engagementShootMobiV2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -224,7 +224,7 @@ section {
 	}
 
 	.ceremonyPhoto{
-	background: url(_danwedscords/__imgs/ChurchMobi.jpeg);
+	background: url(__imgs/ChurchMobi.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -233,7 +233,7 @@ section {
 	}
 
 .receptionPhoto{
-	background: url(_danwedscords/__imgs/receptionMobi.jpeg);
+	background: url(__imgs/receptionMobi.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -268,7 +268,7 @@ section {
 @media only screen and (max-width: 361px) and (min-width : 300px) {
   /*iphone 5*/
   .mainPhoto{
-	background: url(_danwedscords/__imgs/engagementShootMobiV2.jpg);
+	background: url(__imgs/engagementShootMobiV2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -277,7 +277,7 @@ section {
 	}
 
 	.ceremonyPhoto{
-	background: url(_danwedscords/__imgs/ChurchMobi.jpeg);
+	background: url(__imgs/ChurchMobi.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -286,7 +286,7 @@ section {
 }
 
 .receptionPhoto{
-	background: url(_danwedscords/__imgs/receptionMobi.jpeg);
+	background: url(__imgs/receptionMobi.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -308,7 +308,7 @@ section {
 }
 
   .mainPhoto{
-	background: url(_danwedscords/__imgs/engagementShootMobiV2.jpg);
+	background: url(__imgs/engagementShootMobiV2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -317,7 +317,7 @@ section {
 	}
 
 	.ceremonyPhoto{
-	background: url(_danwedscords/__imgs/ChurchMobi.jpeg);
+	background: url(__imgs/ChurchMobi.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -326,7 +326,7 @@ section {
 }
 
 .receptionPhoto{
-	background: url(_danwedscords/__imgs/receptionMobi.jpeg);
+	background: url(__imgs/receptionMobi.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
