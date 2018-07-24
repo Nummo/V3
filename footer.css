@@ -17,8 +17,8 @@
   /*Galaxy S5*/
 
   .footer {
-  font-size: 1px;
-  height: 4%;
+  font-size: 8px;
+  height: 10%;
   width: 100%;
   }
 
@@ -27,8 +27,8 @@
 @media only screen and (max-width: 361px) and (min-width : 300px) {
 /*iphone 5*/
   .footer {
-  font-size: 1px;
-  height: 5%;
+  font-size: 8px;
+  height: 10%;
   width: 100%;
   }
 }
@@ -36,8 +36,8 @@
 @media only screen and (max-width : 480px) and (min-width : 361px){
   /* Smartphone view: 1 tile */
   .footer {
-  font-size: 5px;
-  height: 3%;
+  font-size: 8px;
+  height: 10%;
   width: 100%;
   }
 }

@@ -514,6 +514,10 @@ section {
   	width: 100%;*/
   }
 
+  .ul{
+  	list-style: none;
+  	padding: 5px 0;
+  }
 
   .topnav.responsive {
   position: relative;}
