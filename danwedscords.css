@@ -317,7 +317,7 @@ section {
 	}
 
 	.ceremonyPhoto{
-	background: url(ChurchMobi.jpeg);
+	background: url(ChurchMobiSmall.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -326,7 +326,7 @@ section {
 }
 
 .receptionPhoto{
-	background: url(receptionMobi.jpeg);
+	background: url(receptionMobiSmall.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
@@ -334,6 +334,32 @@ section {
 	margin: 0;
 }
 
+.attirePhoto{
+	background: url(printsMobiSmall.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.transportationPhoto{
+	background: url(Blick-auf-die-skyline-von-London-von-der-Themse-und-Tower-Bridge-iStock-453461545-2MobiSmall.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}/*https://www.myholidayguru.co.uk/hotels/weekend-london/*/
+
+.goodHotelPhoto{
+	background: url(GOODHOTEL-SECONDSELECTION-hr_steeffleur015MobiSmall.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}/*http://www.goodhotellondon.com/contact/*/
 }
 
 /*Responsive Topnav-mobile*/
