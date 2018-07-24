@@ -120,7 +120,7 @@ section {
  /* Medium desktop: 4 tiles */
 
 .mainPhoto{
-	background: url(./_imgs/engagementShoot.jpeg);
+	background: url(engagementShoot.jpeg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
