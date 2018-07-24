@@ -83,7 +83,7 @@ section {
 }
 
 .attirePhoto{
-	background: url(_imgs/prints.jpg);
+	background: url(prints.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	width: 100%;
